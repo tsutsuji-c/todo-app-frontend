@@ -1,3 +1,6 @@
+.board_container {
+  display: flex;
+}
 .container {
   padding: 0 2rem;
 }
