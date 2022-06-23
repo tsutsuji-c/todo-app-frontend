@@ -1,6 +1,6 @@
 import { Droppable, Draggable } from 'react-beautiful-dnd'
 import { Task } from './task'
-import { TaskType } from 'types/task'
+import { TaskType } from '@/types/task'
 
 interface Props {
   droppableId: string

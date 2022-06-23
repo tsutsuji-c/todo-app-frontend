@@ -3,9 +3,9 @@ import { DragDropContext, Droppable, Draggable, resetServerContext } from 'react
 import type { DropResult } from 'react-beautiful-dnd'
 import { GetServerSideProps } from 'next'
 import Head from 'next/head'
-import { TaskType } from 'types/task'
-import { BoardType } from 'types/board'
-import { Board } from 'components/board'
+import { TaskType } from '@/types/task'
+import { BoardType } from '@/types/board'
+import { Board } from '@/components/board'
 
 const Home = () => {
   /* 

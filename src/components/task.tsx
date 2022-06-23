@@ -1,4 +1,4 @@
-import { TaskType } from 'types/task'
+import { TaskType } from '@/types/task'
 import { Draggable } from 'react-beautiful-dnd'
 import { memo } from 'react'
 interface Props extends TaskType {
